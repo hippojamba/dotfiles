@@ -25,3 +25,8 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
+
+# bind case insensitive on startup
+if [ -f ~/dotfiles/.inputrc ]; then
+    bind -f ~/dotfiles/.inputrc
+fi
