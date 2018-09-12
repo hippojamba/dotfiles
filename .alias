@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# lazy navigation
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
