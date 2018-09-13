@@ -1,2 +1,5 @@
 # Autocomplete case insensitive
 set completion-ignore-case on
+
+# List matches for completion
+set show-all-if-ambiguous on
