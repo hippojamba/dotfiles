@@ -1,0 +1,2 @@
+# Alias for starting Visual Studio with "vs *sln"
+# alias vs="'//mnt/c/<location to visual studio>/devenv.exe'"
