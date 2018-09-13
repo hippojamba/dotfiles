@@ -6,6 +6,11 @@ if [ -f ~/.alias ]; then
     . ~/.alias
 fi
 
+# Specific windows settings collected in this file.
+#if [ -f ~/.windows ]; then
+#    . ~/.windows
+#fi
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
