@@ -1,3 +1,12 @@
+" General
+syntax enable
+
+set history=250
+
+set cmdheight=2
+
+set noerrorbells
+
 " Enable 256 colors palette in Gnome Terminal
 if $COLORTERM == 'gnome-terminal'
     set t_Co=256
@@ -10,7 +19,10 @@ try
 catch
 endtry
 
-" Tab setting
-set tabstop=4
+" Indentation
+set expandtab
 
-syntax enable
+set smarttab
+
+set shiftwidth=4
+set tabstop=4
