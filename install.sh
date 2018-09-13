@@ -7,3 +7,4 @@ DOTFILES_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 ln -sfv "$DOTFILES_PATH/.bashrc" ~
 ln -sfv "$DOTFILES_PATH/.bash_profile" ~
 ln -sfv "$DOTFILES_PATH/.inputrc" ~
+ln -sfv "$DOTFILES_PATH/.vimrc" ~
