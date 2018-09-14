@@ -29,3 +29,10 @@ fi
 if [ -f ~/.windows ]; then
     . ~/.windows
 fi
+
+# go lang settings
+# https://tecadmin.net/install-go-on-ubuntu/ 
+#export GOROOT=/usr/local/go
+#export GOPATH=$HOME/golang
+#export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+
