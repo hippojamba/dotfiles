@@ -26,6 +26,6 @@ if [ -f ~/.alias ]; then
 fi
 
 # Specific windows settings collected in this file.
-#if [ -f ~/.windows ]; then
-#    . ~/.windows
-#fi
+if [ -f ~/.windows ]; then
+    . ~/.windows
+fi

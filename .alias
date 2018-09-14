@@ -4,3 +4,14 @@
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
+
+# home dir
+alias cdr="cd ~"
+
+# windows git dir
+alias cdw="cd //mnt/c/Git/"
+
+# ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
