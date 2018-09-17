@@ -8,3 +8,4 @@ ln -sfv "$DOTFILES_PATH/.bashrc" ~
 ln -sfv "$DOTFILES_PATH/.bash_profile" ~
 ln -sfv "$DOTFILES_PATH/.inputrc" ~
 ln -sfv "$DOTFILES_PATH/vim/.vimrc" ~
+ln -sfv "$DOTFILES_PATH/git/.gitconfig" ~
