@@ -33,10 +33,12 @@ fi
 # go lang settings
 # https://tecadmin.net/install-go-on-ubuntu/ 
 export GOROOT=/usr/local/go
-export GOPATH=$HOME/golang
+export GOPATH=$HOME
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
+# Git display
 parse_git_branch() {
      git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
+
 export PS1="\u@\h \[\033[95m\]\w\[\033[96m\]\$(parse_git_branch)\[\033[00m\] $ "
