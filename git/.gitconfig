@@ -6,3 +6,5 @@ email = oliver.sabler@gmail.com
 [core]
 	editor = vim
 	autocrlf = true
+[push]
+	default = simple
