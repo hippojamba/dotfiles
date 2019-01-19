@@ -3,6 +3,7 @@
 export DOTFILES_PATH
 DOTFILES_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 ln -s "$DOTFILES_PATH/.bash_profile" ~
+ln -s "$DOTFILES_PATH/.alias" ~
 
 # RC
 ln -s "$DOTFILES_PATH/runcom/.bashrc" ~
