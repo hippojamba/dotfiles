@@ -21,13 +21,13 @@ if [ -f ~/dotfiles/.inputrc ]; then
     bind -f ~/dotfiles/.inputrc
 fi
 
-if [ -f ~/.alias ]; then
-    . ~/.alias
+if [ -f ~/dotfiles/.alias ]; then
+    . ~/dotfiles/.alias
 fi
 
 # Specific windows settings collected in this file.
-if [ -f ~/.windows ]; then
-    . ~/.windows
+if [ -f ~/dotfiles/.windows ]; then
+    . ~/dotfiles/.windows
 fi
 
 # go lang settings
