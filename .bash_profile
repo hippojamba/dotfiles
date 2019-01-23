@@ -17,15 +17,16 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 # bind case insensitive on startup
-if [ -f ~/dotfiles/.inputrc ]; then
-    bind -f ~/dotfiles/.inputrc
+if [ -f ~/dotfiles/runcom/.inputrc ]; then
+    bind -f ~/dotfiles/runcom/.inputrc
 fi
 
+# load alias config
 if [ -f ~/dotfiles/.alias ]; then
     . ~/dotfiles/.alias
 fi
 
-# Specific windows settings collected in this file.
+# specific windows settings collected in this file.
 if [ -f ~/dotfiles/.windows ]; then
     . ~/dotfiles/.windows
 fi
