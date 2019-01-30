@@ -6,7 +6,6 @@ ln -s "$DOTFILES_PATH/.bash_profile" ~
 
 # RC
 ln -s "$DOTFILES_PATH/runcom/.bashrc" ~
-ln -s "$DOTFILES_PATH/runcom/.inputrc" ~
 ln -s "$DOTFILES_PATH/runcom/.vimrc" ~
 
 # Config
