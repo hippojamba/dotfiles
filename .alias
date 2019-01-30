@@ -9,7 +9,7 @@ alias ....="cd ../../.."
 alias cdr="cd ~"
 
 # windows git dir
-alias cdw="cd //mnt/c/Git/"
+alias cdw="cd //mnt/c/Projects/"
 
 # ls aliases
 alias ll='ls -alF'
