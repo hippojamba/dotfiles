@@ -1,3 +1,4 @@
 # Alias for starting Visual Studio with "vs *sln"
 # alias vs="'//mnt/c/<location to visual studio>/devenv.exe'"
 alias vs="'//mnt/c/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/devenv.exe'"
+alias start="explorer.exe"
