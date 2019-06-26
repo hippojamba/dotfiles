@@ -42,4 +42,10 @@ parse_git_branch() {
      git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
 
-export PS1="\t \[\033[33m\]# \[\033[37m\]\u \[\033[33m\]\w\[\033[1;32m\]\$(parse_git_branch)\[\033[37m\] $ "
+# promt settings
+blue=$(tput setaf 33);
+green=$(tput setaf 64);
+orange=$(tput setaf 166);
+white=$(tput setaf 15);
+
+export PS1="\t - \[${orange}\]\u \[${white}\]in \[${blue}\]\w \[${white}\]on\[${green}\]\$(parse_git_branch) \[${white}\]$"
