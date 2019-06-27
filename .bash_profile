@@ -39,7 +39,7 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
 # Git display
 parse_git_branch() {
-     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
 
 # promt settings
@@ -52,3 +52,5 @@ export PS1="\t - \[${orange}\]\u \[${white}\]in \[${blue}\]\w \[${white}\]on\[${
 
 LS_COLORS='no=1;90:di=1;94;107:ow=01;94;107:fi=1;94:ex=1;95'; 
 export LS_COLORS
+
+export LSCOLORS='ehcxexexfxexexdxdxeheh';

@@ -12,6 +12,6 @@ alias cdr="cd ~"
 alias cdw="cd //mnt/c/Projects/"
 
 # ls aliases
-alias ll='ls -alF --color=auto'
-alias la='ls -A --color=auto'
-alias l='ls -CF --color=auto'
+alias ll='ls -laFGH'
+alias la='ls -AG'
+alias l='ls -CFG'
