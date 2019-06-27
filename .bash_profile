@@ -50,5 +50,5 @@ white=$(tput setaf 15);
 
 export PS1="\t - \[${orange}\]\u \[${white}\]in \[${blue}\]\w \[${white}\]on\[${green}\]\$(parse_git_branch) \[${white}\]$"
 
-LS_COLORS='no=1;90:di=1;94;107:ow=01;94;107:fi=1;94:'; 
+LS_COLORS='no=1;90:di=1;94;107:ow=01;94;107:fi=1;94:ex=1;95'; 
 export LS_COLORS
