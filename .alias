@@ -1,17 +1,25 @@
-#!/usr/bin/env bash
+# GENERAL
+# -------
 
 # lazy navigation
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 
+# ls aliases
+alias ll='ls -laFG'
+
 # home dir
 alias cdr="cd ~"
 
-# windows git dir
+
+# WINDOWS
+# -------
+
+# git repo dir
 alias cdw="cd //mnt/c/Projects/"
 
-# ls aliases
-alias ll='ls -laFGH'
-alias la='ls -AG'
-alias l='ls -CFG'
+# Alias for starting Visual Studio with "vs *sln"
+# alias vs="'//mnt/c/<location to visual studio>/devenv.exe'"
+alias vs="'//mnt/c/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/devenv.exe'"
+alias start="explorer.exe"
