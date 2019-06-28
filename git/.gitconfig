@@ -5,6 +5,6 @@ name = "hippojamba"
 email = oliver.sabler@gmail.com
 [core]
 	editor = vim
-	autocrlf = false
+	autocrlf = true
 [push]
 	default = simple
