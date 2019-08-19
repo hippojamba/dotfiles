@@ -7,7 +7,7 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 
 # ls aliases
-alias ll='ls -laFG --color'
+alias ll='ls -laFG'
 
 # home dir
 alias cdr="cd ~"
